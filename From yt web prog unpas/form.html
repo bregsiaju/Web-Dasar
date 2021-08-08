@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Form</title>
+    </head>
+
+    <body>
+        <form>
+            <table border="0" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td align="right"><label for="username" id="username">Username :</label></td>
+                    <td><input type="text" id="username"></td>
+                </tr>                   
+                <tr>
+                    <td align="right"><label for="password" id="password">Password : </label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="jenis kelamin">Jenis Kelamin : </label></td>
+                    <td><input type="radio" id="pria" name="kelamin"><label for="pria">Pria</label>
+                        <input type="radio" id="wanita" name="kelamin"><label for="wanita">Wanita</label></td>
+                </tr>                
+                <tr>
+                    <td align="right"><label for="hobi">Hobi : </label></td>
+                    <td>
+                        <input type="checkbox" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+                        <input type="checkbox" id="olahraga"><label for="olahraga">Olahraga</label>
+                        <input type="checkbox" id="ngoding"><label for="ngoding">Ngoding</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><label for="domisili">Domisili : </label></td>
+                    <td><select>
+                        <option>Jawa</option>
+                        <option>Kalimantan</option>
+                        <option>Sumatera</option>
+                        <option>Sulawesi</option>
+                        <option>Papua</option>
+                    </select></td>
+                </tr>        
+                <tr>
+                    <td align="right"><label for="catatan">Catatan : </label></td>
+                    <td><textarea></textarea></td>
+                </tr>       
+                <tr>
+                    <td colspan="2" align="right"><button>Kirim</button></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
