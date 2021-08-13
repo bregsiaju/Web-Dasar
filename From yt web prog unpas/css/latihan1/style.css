@@ -1,0 +1,15 @@
+h1 {
+    color: lightseagreen;
+    font-family:'Courier New', Courier, monospace;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 30px;
+    text-align: justify;
+    margin:30px;
+}
