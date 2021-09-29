@@ -43,3 +43,14 @@ section {
     color: #000;
     border-color: #6a4162;
 }
+
+footer {
+    background-color: #f6d2d6;
+    height: 80px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+footer a {
+    color: inherit;
+}
