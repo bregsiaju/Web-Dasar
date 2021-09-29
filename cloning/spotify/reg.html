@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+    <link rel="stylesheet" href="styleReg.css">
+    <head>
+        <title>Daftar - Spotify</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Black.png" alt="Logo Spotify" height="40"></svg>
+            <h2>Daftar gratis untuk mulai <br> mendengarkan.</h2>
+            <button class="fb">Daftar dengan Facebook</button>
+        </div>
+
+        <form action="register.php" method="post">
+            <p>
+                <label for="email">Apa email kamu?</label><br>
+                <input type="email" name="email" placeholder="Masukkan email kamu." class="kotak">
+            </p>
+            <p>
+                <label for="konfirmasi email">Konfirmasi email kamu</label><br>
+                <input type="email" name="email" placeholder="Masukkan lagi email kamu." class="kotak">
+            </p>
+            <p>
+                <label for="password">Buat kata sandi</label><br>
+                <input type="password" placeholder="Buat kata sandi." class="kotak">
+            </p>            
+            <p>
+                <label for="nama">Siapa namamu?</label><br>
+                <input type="text" placeholder="Masukkan nama profil." class="kotak"> 
+                <br> Ini akan muncul di profil kamu. 
+            </p>
+            <p>
+                <label for="ttl">Kapan tanggal lahir kamu?</label>
+                <table>
+                    <tr>
+                        <td>Hari</td>
+                        <td>Bulan</td>
+                        <td>Tahun</td>
+                    </tr>
+                    <tr>
+                        <td><input type="number" min="1" max="31" placeholder="DD"></td>
+                        <td>
+                        <select name="bulan" placeholder="Bulan">
+                            <option value="januari">Januari</option>
+                            <option value="februari">Februari</option>
+                            <option value="maret">Maret</option>
+                            <option value="April">April</option>
+                            <option value="Mei">Mei</option>
+                            <option value="Juni">Juni</option>
+                            <option value="Juli">Juli</option>
+                            <option value="Agustus">Agustus</option>
+                            <option value="September">September</option>
+                            <option value="Oktober">Oktober</option>
+                            <option value="November">November</option>
+                            <option value="Desember">Desember</option>
+                        </select>
+                        </td>
+                        <td><input type="number" min="1950" max="2025" placeholder="YYYY"></td>
+                    </tr>
+                </table>  
+            </p>
+            <p>
+                <label for="gender">Apa gender kamu?</label><br>
+                <input type="radio" id="pria" name="gender"><label for="pria">Pria</label>
+                <input type="radio" id="wanita" name="gender"><label for="wanita">Wanita</label>
+                <input type="radio" id="non-biner" name="gender"><label for="non-biner">Non-biner</label>
+            </p>
+            <p>
+                <input type="checkbox" id="pemasaran"><label for="pemasaran">Saya tidak ingin menerima pesan pemasaran dari Spotify.</label>
+            </p>
+            <p>    
+                <input type="checkbox" id="data"><label for="data">Bagikan data pendaftaran saya kepada penyedia konten Spotify untuk keperluan pemasaran.</label>
+            </p>
+            <p>
+                Dengan mengklik daftar, kamu menyetujui <a href="https://www.spotify.com/id/legal/end-user-agreement/" target="_blank"> Persyaratan dan Ketentuan Penggunaan Spotify</a>.
+            </p>
+            <p>
+                Untuk mempelajari selengkapnya tentang cara Spotify mengumpulkan, menggunakan, membagikan, dan melindungi data pribadimu, baca <a href="https://www.spotify.com/id/legal/privacy-policy/">Kebijakan Privasi Spotify</a>. 
+            </p>
+            <button>Daftar</button>
+            <p>Punya akun? <a href="https://accounts.spotify.com/en/login">Masuk</a>.</p>
+        </form>
+    </body>
+</html>

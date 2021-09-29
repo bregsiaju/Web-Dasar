@@ -1,0 +1,38 @@
+.jumbotron {
+    background-color: #f6d2d6;
+    padding: 30px 0px;
+}
+
+.jumbotron img {
+    width: 225px;
+    border: 5px solid #6a4162;
+}
+
+hr {
+    width: 35%;
+    margin: auto;
+    border-top: 3px solid #6a4162;
+    opacity: 75%;
+    margin-bottom: 2rem;
+}
+
+section {
+    min-height: 600px;
+}
+
+.thumbnail{
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 50%;
+}
+
+.portfolio {
+    background-color: #f6d2d6;
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.img-port {
+    margin-bottom: 1rem;
+}
