@@ -1,6 +1,7 @@
 .jumbotron {
     background-color: #f6d2d6;
     padding: 30px 0px;
+    margin-top: 50px;
 }
 
 .jumbotron img {
@@ -53,4 +54,8 @@ footer {
 
 footer a {
     color: inherit;
+}
+
+.navbar-nav {
+    padding-right: 10px;
 }
