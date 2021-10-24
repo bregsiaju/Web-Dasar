@@ -2588,7 +2588,7 @@
     var scrollTop = win.pageYOffset;
     return {
       scrollLeft: scrollLeft,
-      scrollTop: scrollTop
+      scrollTop: scrollTop-50
     };
   }
 

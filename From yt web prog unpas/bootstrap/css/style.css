@@ -1,61 +1,66 @@
 .jumbotron {
-    background-color: #f6d2d6;
-    padding: 30px 0px;
-    margin-top: 50px;
+  background-color: #f6d2d6;
+  padding: 30px 0px;
+  margin-top: 50px;
 }
 
 .jumbotron img {
-    width: 225px;
-    border: 5px solid #6a4162;
+  width: 225px;
+  border: 5px solid #6a4162;
 }
 
 hr {
-    width: 35%;
-    margin: auto;
-    border-top: 3px solid #6a4162;
-    opacity: 75%;
-    margin-bottom: 2rem;
+  width: 35%;
+  margin: auto;
+  border-top: 3px solid #6a4162;
+  opacity: 75%;
+  margin-bottom: 2rem;
 }
 
 section {
-    min-height: 600px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  min-height: 600px;
+  padding-top: 70px;
+  padding-bottom: 30px;
 }
 
-.thumbnail{
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: 0.25rem;
-    max-width: 50%;
+.thumbnail {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  max-width: 50%;
 }
 
 .portfolio {
-    background-color: #f6d2d6;
-    width: 100%;
+  background-color: #f6d2d6;
+  width: 100%;
 }
 
 .img-port {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .btn-primary {
-    background-color: #f6d2d6;
-    color: #000;
-    border-color: #6a4162;
+  background-color: #f6d2d6;
+  color: #000;
+  border-color: #6a4162;
 }
 
 footer {
-    background-color: #f6d2d6;
-    height: 80px;
-    width: 100%;
-    padding-top: 30px;
+  background-color: #f6d2d6;
+  height: 80px;
+  width: 100%;
+  padding-top: 30px;
 }
 
 footer a {
-    color: inherit;
+  color: inherit;
 }
 
 .navbar-nav {
-    padding-right: 10px;
+  padding-right: 10px;
+}
+
+.navbar-dark .nav-coll .nav-link {
+  padding-left: 15px;
+  color: white;
 }

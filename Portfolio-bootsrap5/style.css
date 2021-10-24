@@ -1,0 +1,20 @@
+.jumbotron {
+  padding-top: 100px;
+  background-color: #f7f7f7;
+}
+
+.img-thumb {
+  border: 5px solid #a84f7c;
+  border-radius: 0.25rem;
+  max-width: 100%;
+  height: auto;
+}
+
+#about,
+#contact {
+  background-color: #d4afb9;
+}
+
+footer {
+  background-color: #a84f7c;
+}
